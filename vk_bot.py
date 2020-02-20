@@ -1,4 +1,9 @@
-https://github.com/rikirill/botvk
+import vk_api
+from vk_api.longpoll import VkLongPoll, VkEventType
+import random
+import requests as req
+from bs4 import BeautifulSoup as beatsup
+
 token = ''
 vk = vk_api.VkApi(token=token)
 
